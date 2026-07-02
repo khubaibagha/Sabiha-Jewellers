@@ -34,7 +34,7 @@
         <ul class="nav-list">
 
           <li class="nav-item has-dropdown">
-            <a href="${B}index.html#shop" class="nav-link">
+            <a href="${B}jewellery.html" class="nav-link">
               Jewellery
               <svg viewBox="0 0 24 24"><polyline points="6,9 12,15 18,9"/></svg>
             </a>
@@ -53,8 +53,8 @@
                 </div>
                 <div>
                   <div class="dd-col-head">Quick Links</div>
+                  <a href="${B}jewellery.html" class="dd-link featured">&rarr; View All Jewellery</a>
                   <a href="https://wa.me/923212110805" target="_blank" rel="noopener" class="dd-link featured">&rarr; Order via WhatsApp</a>
-                  <a href="${B}shop/new-arrivals.html" class="dd-link featured">&rarr; New Arrivals</a>
                   <hr class="dd-divider">
                   <a href="${B}gallery.html" class="dd-link">Gallery</a>
                   <a href="${B}reviews.html" class="dd-link">Customer Reviews</a>
@@ -65,7 +65,7 @@
           </li>
 
           <li class="nav-item has-dropdown">
-            <a href="${B}index.html#collections" class="nav-link">
+            <a href="${B}collections.html" class="nav-link">
               Collections
               <svg viewBox="0 0 24 24"><polyline points="6,9 12,15 18,9"/></svg>
             </a>
@@ -82,6 +82,7 @@
                 </div>
                 <div>
                   <div class="dd-col-head">Discover</div>
+                  <a href="${B}collections.html" class="dd-link featured">&rarr; View All Collections</a>
                   <a href="https://wa.me/923212110805" target="_blank" rel="noopener" class="dd-link featured">&rarr; WhatsApp to Order</a>
                   <hr class="dd-divider">
                   <a href="https://instagram.com/sabihasjewellery" target="_blank" rel="noopener" class="dd-link">Follow on Instagram</a>
@@ -162,6 +163,7 @@
     <div class="m-nav-item">
       <div class="m-nav-toggle" data-target="m-jewellery">Jewellery<svg viewBox="0 0 24 24"><polyline points="6,9 12,15 18,9"/></svg></div>
       <div class="m-nav-sub" id="m-jewellery">
+        <a href="${B}jewellery.html" style="font-weight:500">View All Jewellery</a>
         <a href="${B}shop/rings.html">Rings</a>
         <a href="${B}shop/earrings.html">Earrings</a>
         <a href="${B}shop/necklaces.html">Necklaces</a>
@@ -175,6 +177,7 @@
     <div class="m-nav-item">
       <div class="m-nav-toggle" data-target="m-collections">Collections<svg viewBox="0 0 24 24"><polyline points="6,9 12,15 18,9"/></svg></div>
       <div class="m-nav-sub" id="m-collections">
+        <a href="${B}collections.html" style="font-weight:500">View All Collections</a>
         <a href="${B}shop/bridal.html">Bridal Collection</a>
         <a href="${B}shop/everyday.html">Everyday Wear</a>
         <a href="${B}shop/new-arrivals.html">New Arrivals</a>
@@ -207,6 +210,7 @@
         </div>
         <div>
           <div class="f-col-h">Shop</div>
+          <a class="f-link" href="${B}jewellery.html">All Jewellery</a>
           <a class="f-link" href="${B}shop/rings.html">Rings</a>
           <a class="f-link" href="${B}shop/earrings.html">Earrings</a>
           <a class="f-link" href="${B}shop/necklaces.html">Necklaces</a>
@@ -216,6 +220,7 @@
         </div>
         <div>
           <div class="f-col-h">Collections</div>
+          <a class="f-link" href="${B}collections.html">All Collections</a>
           <a class="f-link" href="${B}shop/bridal.html">Bridal Collection</a>
           <a class="f-link" href="${B}shop/new-arrivals.html">New Arrivals</a>
           <a class="f-link" href="${B}shop/everyday.html">Everyday Wear</a>
