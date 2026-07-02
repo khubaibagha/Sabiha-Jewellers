@@ -42,19 +42,19 @@
               <div class="dropdown-inner">
                 <div>
                   <div class="dd-col-head">Shop by Category</div>
-                  <a href="${B}index.html#rings" class="dd-link">Rings</a>
-                  <a href="${B}index.html#earrings" class="dd-link">Earrings</a>
-                  <a href="${B}index.html#necklaces" class="dd-link">Necklaces</a>
-                  <a href="${B}index.html#pendants" class="dd-link">Pendants</a>
-                  <a href="${B}index.html#bracelets" class="dd-link">Bracelets</a>
-                  <a href="${B}index.html#bangles" class="dd-link">Bangles</a>
-                  <a href="${B}index.html#chains" class="dd-link">Chains</a>
-                  <a href="${B}index.html#anklets" class="dd-link">Anklets</a>
+                  <a href="${B}shop/rings.html" class="dd-link">Rings</a>
+                  <a href="${B}shop/earrings.html" class="dd-link">Earrings</a>
+                  <a href="${B}shop/necklaces.html" class="dd-link">Necklaces</a>
+                  <a href="${B}shop/pendants.html" class="dd-link">Pendants</a>
+                  <a href="${B}shop/bracelets.html" class="dd-link">Bracelets</a>
+                  <a href="${B}shop/bangles.html" class="dd-link">Bangles</a>
+                  <a href="${B}shop/chains.html" class="dd-link">Chains</a>
+                  <a href="${B}shop/anklets.html" class="dd-link">Anklets</a>
                 </div>
                 <div>
                   <div class="dd-col-head">Quick Links</div>
                   <a href="https://wa.me/923212110805" target="_blank" rel="noopener" class="dd-link featured">&rarr; Order via WhatsApp</a>
-                  <a href="${B}index.html#new-arrivals" class="dd-link featured">&rarr; New Arrivals</a>
+                  <a href="${B}shop/new-arrivals.html" class="dd-link featured">&rarr; New Arrivals</a>
                   <hr class="dd-divider">
                   <a href="${B}gallery.html" class="dd-link">Gallery</a>
                   <a href="${B}reviews.html" class="dd-link">Customer Reviews</a>
@@ -73,12 +73,12 @@
               <div class="dropdown-inner">
                 <div>
                   <div class="dd-col-head">Shop Collections</div>
-                  <a href="${B}index.html#bridal" class="dd-link">Bridal Collection</a>
-                  <a href="${B}index.html#everyday" class="dd-link">Everyday Wear</a>
-                  <a href="${B}index.html#signature" class="dd-link">Signature Collection</a>
-                  <a href="${B}index.html#new-arrivals" class="dd-link">New Arrivals</a>
-                  <a href="${B}index.html#bestsellers" class="dd-link">Best Sellers</a>
-                  <a href="${B}index.html#gifts" class="dd-link">Gift Collection</a>
+                  <a href="${B}shop/bridal.html" class="dd-link">Bridal Collection</a>
+                  <a href="${B}shop/everyday.html" class="dd-link">Everyday Wear</a>
+                  <a href="${B}shop/signature.html" class="dd-link">Signature Collection</a>
+                  <a href="${B}shop/new-arrivals.html" class="dd-link">New Arrivals</a>
+                  <a href="${B}shop/bestsellers.html" class="dd-link">Best Sellers</a>
+                  <a href="${B}shop/gifts.html" class="dd-link">Gift Collection</a>
                 </div>
                 <div>
                   <div class="dd-col-head">Discover</div>
@@ -132,8 +132,8 @@
                   <a href="https://wa.me/923212110805" target="_blank" rel="noopener" class="dd-link featured">&rarr; WhatsApp to Order</a>
                   <a href="https://instagram.com/sabihasjewellery" target="_blank" rel="noopener" class="dd-link featured">&rarr; Shop on Instagram</a>
                   <hr class="dd-divider">
-                  <a href="${B}index.html#new-arrivals" class="dd-link">New Arrivals</a>
-                  <a href="${B}index.html#bridal" class="dd-link">Bridal Collection</a>
+                  <a href="${B}shop/new-arrivals.html" class="dd-link">New Arrivals</a>
+                  <a href="${B}shop/bridal.html" class="dd-link">Bridal Collection</a>
                   <a href="${B}reviews.html" class="dd-link">Reviews</a>
                 </div>
               </div>
@@ -162,24 +162,24 @@
     <div class="m-nav-item">
       <div class="m-nav-toggle" data-target="m-jewellery">Jewellery<svg viewBox="0 0 24 24"><polyline points="6,9 12,15 18,9"/></svg></div>
       <div class="m-nav-sub" id="m-jewellery">
-        <a href="${B}index.html#rings">Rings</a>
-        <a href="${B}index.html#earrings">Earrings</a>
-        <a href="${B}index.html#necklaces">Necklaces</a>
-        <a href="${B}index.html#pendants">Pendants</a>
-        <a href="${B}index.html#bracelets">Bracelets</a>
-        <a href="${B}index.html#bangles">Bangles</a>
-        <a href="${B}index.html#chains">Chains</a>
-        <a href="${B}index.html#anklets">Anklets</a>
+        <a href="${B}shop/rings.html">Rings</a>
+        <a href="${B}shop/earrings.html">Earrings</a>
+        <a href="${B}shop/necklaces.html">Necklaces</a>
+        <a href="${B}shop/pendants.html">Pendants</a>
+        <a href="${B}shop/bracelets.html">Bracelets</a>
+        <a href="${B}shop/bangles.html">Bangles</a>
+        <a href="${B}shop/chains.html">Chains</a>
+        <a href="${B}shop/anklets.html">Anklets</a>
       </div>
     </div>
     <div class="m-nav-item">
       <div class="m-nav-toggle" data-target="m-collections">Collections<svg viewBox="0 0 24 24"><polyline points="6,9 12,15 18,9"/></svg></div>
       <div class="m-nav-sub" id="m-collections">
-        <a href="${B}index.html#bridal">Bridal Collection</a>
-        <a href="${B}index.html#everyday">Everyday Wear</a>
-        <a href="${B}index.html#new-arrivals">New Arrivals</a>
-        <a href="${B}index.html#bestsellers">Best Sellers</a>
-        <a href="${B}index.html#gifts">Gift Collection</a>
+        <a href="${B}shop/bridal.html">Bridal Collection</a>
+        <a href="${B}shop/everyday.html">Everyday Wear</a>
+        <a href="${B}shop/new-arrivals.html">New Arrivals</a>
+        <a href="${B}shop/bestsellers.html">Best Sellers</a>
+        <a href="${B}shop/gifts.html">Gift Collection</a>
       </div>
     </div>
     <a href="${B}about.html" class="m-nav-link">About</a>
@@ -207,19 +207,19 @@
         </div>
         <div>
           <div class="f-col-h">Shop</div>
-          <a class="f-link" href="${B}index.html#rings">Rings</a>
-          <a class="f-link" href="${B}index.html#earrings">Earrings</a>
-          <a class="f-link" href="${B}index.html#necklaces">Necklaces</a>
-          <a class="f-link" href="${B}index.html#bracelets">Bracelets</a>
-          <a class="f-link" href="${B}index.html#bangles">Bangles</a>
-          <a class="f-link" href="${B}index.html#pendants">Pendants</a>
+          <a class="f-link" href="${B}shop/rings.html">Rings</a>
+          <a class="f-link" href="${B}shop/earrings.html">Earrings</a>
+          <a class="f-link" href="${B}shop/necklaces.html">Necklaces</a>
+          <a class="f-link" href="${B}shop/bracelets.html">Bracelets</a>
+          <a class="f-link" href="${B}shop/bangles.html">Bangles</a>
+          <a class="f-link" href="${B}shop/pendants.html">Pendants</a>
         </div>
         <div>
           <div class="f-col-h">Collections</div>
-          <a class="f-link" href="${B}index.html#bridal">Bridal Collection</a>
-          <a class="f-link" href="${B}index.html#new-arrivals">New Arrivals</a>
-          <a class="f-link" href="${B}index.html#everyday">Everyday Wear</a>
-          <a class="f-link" href="${B}index.html#bestsellers">Best Sellers</a>
+          <a class="f-link" href="${B}shop/bridal.html">Bridal Collection</a>
+          <a class="f-link" href="${B}shop/new-arrivals.html">New Arrivals</a>
+          <a class="f-link" href="${B}shop/everyday.html">Everyday Wear</a>
+          <a class="f-link" href="${B}shop/bestsellers.html">Best Sellers</a>
           <a class="f-link" href="${B}reviews.html">Reviews</a>
           <a class="f-link" href="${B}about.html">Our Story</a>
         </div>
@@ -251,7 +251,7 @@
       <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
       <span class="fab-label">Insta</span>
     </a>
-    <a href="${B}index.html#new-arrivals" class="fab-btn fab-call" aria-label="New Arrivals">
+    <a href="${B}shop/new-arrivals.html" class="fab-btn fab-call" aria-label="New Arrivals">
       <svg viewBox="0 0 24 24"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
       <span class="fab-label">New</span>
     </a>
