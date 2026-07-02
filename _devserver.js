@@ -11,7 +11,7 @@ http.createServer((req, res) => {
   fs.readFile(full, (err, data) => {
     if (err) { res.writeHead(404); res.end('Not found: ' + p); return; }
     const ext = path.extname(full);
-    res.writeHead(200, { 'Content-Type': mime[ext] || 'application/octet-stream' });
+    res.writeHead(200, { 'Content-Type': mime[ext] || 'application/octet-stream', 'Cache-Control': 'no-store' });
     res.end(data);
   });
 }).listen(8766, () => console.log('listening on 8766'));
