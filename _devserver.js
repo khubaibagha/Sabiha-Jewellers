@@ -14,4 +14,4 @@ http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': mime[ext] || 'application/octet-stream' });
     res.end(data);
   });
-}).listen(8765, () => console.log('listening on 8765'));
+}).listen(8766, () => console.log('listening on 8766'));
