@@ -29,40 +29,23 @@
 
   const collectionHandle = grid.getAttribute('data-collection') || '';
   const categoryLabel = grid.getAttribute('data-label') || 'Jewellery';
-  const placeholderCount = parseInt(grid.getAttribute('data-placeholders') || '8', 10);
 
   const isConfigured = SHOPIFY.domain && SHOPIFY.token;
 
-  /* ── Coming Soon placeholders ── */
+  /* ── Coming Soon panel (single centered box, Women Lounge style) ── */
   function renderComingSoon() {
-    let html = '';
-    for (let i = 0; i < placeholderCount; i++) {
-      html += `
-      <div class="product-card is-placeholder">
-        <div class="pc-img pc-img-placeholder">
-          <svg viewBox="0 0 64 64" aria-hidden="true"><polygon points="32,12 46,26 32,52 18,26" fill="none" stroke="currentColor" stroke-width="1.4"/><line x1="18" y1="26" x2="46" y2="26" stroke="currentColor" stroke-width="1.4"/></svg>
-          <span class="pc-soon-badge">Coming Soon</span>
-        </div>
-        <div class="pc-info">
-          <div class="pc-name">${categoryLabel} — Piece ${String(i + 1).padStart(2, '0')}</div>
-          <div class="pc-price">Launching soon</div>
-        </div>
+    const B = window.NAV_BASE || './';
+    grid.classList.add('is-coming-soon');
+    grid.innerHTML = `
+      <div class="coming-soon-panel">
+        <div class="cs-eyebrow">Coming Soon</div>
+        <div class="cs-title">${categoryLabel}</div>
+        <p class="cs-sub">Connect your Shopify store to display live products in this collection.</p>
+        <a href="${B}index.html" class="btn btn-dark cs-btn">Back to Home</a>
       </div>`;
-    }
-    grid.innerHTML = html;
 
     const note = document.getElementById('shopNote');
-    if (note) {
-      note.innerHTML = `
-        <div class="shop-note-inner">
-          <div class="shop-note-title">This collection is being photographed &amp; uploaded</div>
-          <p>Our full ${categoryLabel.toLowerCase()} range is available right now on Instagram and WhatsApp — message us for photos, prices and live videos of any piece.</p>
-          <div class="shop-note-ctas">
-            <a href="${WHATSAPP}" target="_blank" rel="noopener" class="btn-dark">WhatsApp Us to Order</a>
-            <a href="${INSTAGRAM}" target="_blank" rel="noopener" class="btn-outline">Browse on Instagram</a>
-          </div>
-        </div>`;
-    }
+    if (note) note.innerHTML = '';
   }
 
   /* ── Shopify Storefront fetch ── */
