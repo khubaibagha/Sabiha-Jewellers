@@ -24,9 +24,13 @@
   --header-h:80px;
   --nav-h:80px;
 }
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:var(--gold-line) var(--cream2)}
 body{font-family:'Manrope',sans-serif;background:var(--cream);color:var(--text);overflow-x:hidden;-webkit-font-smoothing:antialiased;animation:pageFadeIn 0.4s ease both}
 body.page-exit{animation:pageFadeOut 0.2s ease forwards}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:var(--cream2)}
+::-webkit-scrollbar-thumb{background:var(--gold-line);border-radius:10px;border:2px solid var(--cream2)}
+::-webkit-scrollbar-thumb:hover{background:var(--gold)}
 @keyframes pageFadeIn{from{opacity:0}to{opacity:1}}
 @keyframes pageFadeOut{to{opacity:0}}
 @media (prefers-reduced-motion:reduce){

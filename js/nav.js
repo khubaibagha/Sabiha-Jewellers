@@ -344,18 +344,18 @@
   });
 
   // Transparent hero overlay: make header transparent when hero is in view
-  (function() {
+  // (deferred to DOMContentLoaded — this script runs before .hero-luxury exists in the DOM)
+  document.addEventListener('DOMContentLoaded', function() {
     const header = document.querySelector('.site-header');
     const hero   = document.querySelector('.hero-luxury');
     if (!hero || !header) return;
-
     function update() {
       const solid = window.scrollY > hero.offsetHeight * 0.6;
       header.classList.toggle('is-transparent', !solid);
     }
-
     header.classList.add('is-transparent');
+    update();
     window.addEventListener('scroll', update, { passive: true });
-  })();
+  });
 
 })();
