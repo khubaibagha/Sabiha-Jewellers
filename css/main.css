@@ -48,6 +48,7 @@ body.page-exit{animation:pageFadeOut 0.2s ease forwards}
 /* ── HEADER ── */
 .site-header{position:fixed;top:var(--announce-h);left:0;right:0;z-index:300;background:var(--cream);border-bottom:1px solid var(--border);padding:0;transition:background 0.45s ease,border-color 0.45s ease,top 0.35s ease}
 .site-header.is-transparent{background:transparent;border-bottom-color:transparent}
+.site-header.is-transparent .nav-link{color:var(--text)}
 .site-header.ann-hidden{top:0}
 body.nav-open{overflow:hidden}
 .site-header .h-inner{max-width:1360px;margin:0 auto;padding:0 2.5rem;width:100%;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:var(--header-h)}
