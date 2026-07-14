@@ -15,14 +15,6 @@
     </a>`;
 
   const navHtml = `
-  <div class="announce-bar">
-    <span>Worldwide Shipping</span>
-    <span class="ann-dot">&#183;</span>
-    <a href="https://wa.me/923212110805" target="_blank" rel="noopener">WhatsApp Us</a>
-    <span class="ann-dot">&#183;</span>
-    <a href="https://instagram.com/sabihasjewellery" target="_blank" rel="noopener">@sabihasjewellery</a>
-  </div>
-
   <header class="site-header">
     <div class="h-inner">
 
